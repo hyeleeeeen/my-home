@@ -1,0 +1,49 @@
+body {
+     margin: 0px
+  }
+  a {
+    color:black;
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    border-bottom: black 1px solid;
+    padding: 70px;
+    padding-top: 50px;
+    margin:0px;
+  }
+ ul {
+     width: 140px;
+     padding: 30px;
+     margin: 0px;
+     border-right: black 1px solid;
+  }
+  li {
+    height: 50px;
+    font-size: 20px;
+  }
+  input {
+    color: deeppink;
+    background-color: white;
+    border:0px;
+    display: inline;
+  }
+  #grid {
+    display: grid;
+  }
+  @media (max-width:1014px){
+    h1 {
+      border-bottom: none;
+      font-size: 40px;
+    }
+    #grid {
+      display: block;
+    }
+    ul {
+      border-right: none;
+    }
+    li {
+      font-size: 15px;
+    }
+  }
